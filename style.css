@@ -1,0 +1,346 @@
+
+html {
+  overflow: hidden;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.enc{
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: circle(120px);
+  clip-path: circle(120px);
+  color:green;
+}
+
+body{
+  opacity: 1;
+  animation: fadeIn 10s ease;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+.bttn{
+  height: 53px;
+  width:107px;
+  border-radius: 10px;
+  border-color: #C176CB;
+  /* border-width: 1px;*/
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*border-style: solid;*/
+
+}
+
+.por{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  z-index: 5;
+  width: 100%;
+  opacity: 0;
+  animation-name: texta;
+  animation-duration: 1s;
+  animation-delay: 18s;
+  animation-fill-mode: forwards;
+  bottom: 105px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.por a{
+  text-decoration: none;
+}
+
+.por p {
+	color: #C176CB;
+}
+
+p{
+  color: white;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+@keyframes texta{
+    from {
+      opacity: 0;
+      -ms-transform: translate(0px,80px); /* IE 9 */
+    -webkit-transform: translate(0px,80px); /* Safari */
+    transform: translate(0px,80px);
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+
+.bttn1{
+  height: 55px;
+  width:107px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.por1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 100%;
+  opacity: 0;
+  animation-name: textav;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+  bottom: 130px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.bttn2{
+  height: 55px;
+  width:107px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.por2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 100%;
+  opacity: 0;
+  animation-name: textav;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+  bottom: 130px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.bttn3{
+  height: 55px;
+  width:107px;
+  border-radius: 10px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.por3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 100%;
+  opacity: 0;
+  animation-name: textav;
+  animation-duration: 3s;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+  bottom: 130px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+
+@keyframes textav{
+    0% {
+      opacity: 0;
+      -ms-transform: translate(0px,80px); /* IE 9 */
+    -webkit-transform: translate(0px,80px); /* Safari */
+    transform: translate(0px,80px);
+    }
+
+    50%{
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 95%;
+  margin: 0;
+}
+
+body {
+  background: black;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 140%;
+  cursor: default;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+
+.splash .try {
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  user-select: none;
+  width: 100%;
+  height: 100%
+}
+
+.splash .try .device {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  user-select: none;
+  overflow: hidden;
+}
+
+.splash .try .device-screen {
+  background:;
+  height: 200px;
+  width: 200px;
+  border-top-left-radius:50px;
+  border-bottom-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-right-radius:50px;
+  perspective: 500px;
+}
+
+.splash .try .device-screen-wrapper {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.splash .try .device.hammertime .device-screen {
+  background: url(../img/hammer.gif) no-repeat 50%;
+  background-size: cover;
+}
+
+.splash .try .device.hammertime .device-screen #hitarea {
+  display: none;
+}
+
+.splash .try #hitarea {
+  background: #fff;
+  background-image:url(o.jpeg);
+  background-repeat: no-repeat;
+  background-size: 250px auto;
+  background-position: center;
+  position: absolute;
+  margin:auto;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  animation-name: rtol;
+  animation-duration: 6s;
+  cursor: pointer;
+  -ms-touch-select: none;
+  -webkit-touch-callout: none;
+}
+
+.anim{
+  pointer-events: none;
+  z-index: 99;
+  width: 250px;
+  height: 250px;
+  position:absolute;
+  left:0; right:0;
+  top:0; bottom:0;
+  margin:auto;
+  border-radius: 50%;
+  background-image: url("gif.gif");
+  background-repeat: no-repeat;
+  background-size: 350px 350px;
+  background-position: center;
+  opacity: 0.5;
+  animation-name: ltor;
+  animation-duration: 6s;
+}
+
+@keyframes ltor {
+    from {
+    -ms-transform: translate(300px,0px);
+    -webkit-transform: translate(300px,0px);
+    transform: translate(300px,0px);
+    }
+
+    to {
+    -ms-transform: translate(0px,0px);
+    -webkit-transform: translate(0px,0px);
+    transform: translate(0px,0px);
+    }
+}
+
+@keyframes rtol {
+    0% {
+    -ms-transform: translate(-300px, -25px);
+    -webkit-transform: translate(-300px, -25px);
+    transform: translate(-300px, -25px);
+    -moz-transform:translate(-300px, -25px);
+    -o-transform:translate(-300px, -25px);
+    }
+
+    100% {
+    -ms-transform: translate(-25px, -25px);
+    -webkit-transform: translate(-25px, -25px);
+    transform: translate(-25px, -25px);
+    -moz-transform:translate(-25px, -25px);
+    -o-transform:translate(-25px, -25px);
+    }
+}
+
+.splash .try #hitarea.animate {
+  transition: 0.5s;
+}
+
+
