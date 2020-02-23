@@ -42,23 +42,23 @@
                 adaptiveHeight: false,
                 appendArrows: $(element),
                 appendDots: $(element),
-                arrows: true,
+                arrows: false,
                 asNavFor: null,
-                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
-                nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
+                // prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
+                // nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
                 autoplay: false,
                 autoplaySpeed: 3000,
                 centerMode: false,
                 centerPadding: '50px',
                 cssEase: 'ease',
-                customPaging: function(slider, i) {
-                    return $('<button type="button" />').text(i + 1);
-                },
+                // customPaging: function(slider, i) {
+                //     return $('<button type="button" />').text(i + 1);
+                // },
                 dots: false,
                 dotsClass: 'slick-dots',
                 draggable: true,
                 easing: 'linear',
-                edgeFriction: 0.35,
+                edgeFriction: 22.15,
                 fade: false,
                 focusOnSelect: false,
                 focusOnChange: false,
@@ -81,13 +81,13 @@
                 swipe: true,
                 swipeToSlide: false,
                 touchMove: true,
-                touchThreshold: 5,
+                touchThreshold: 25,
                 useCSS: true,
                 useTransform: true,
                 variableWidth: false,
                 vertical: false,
                 verticalSwiping: false,
-                waitForAnimate: true,
+                waitForAnimate: false,
                 zIndex: 1000
             };
 
