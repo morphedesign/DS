@@ -16,7 +16,7 @@ html {
 
 body{
   opacity: 1;
-  animation: fadeIn 10s ease;
+  animation: fadeIn 5s ease;
 }
 
 @keyframes fadeIn{
@@ -52,7 +52,7 @@ body{
   opacity: 0;
   animation-name: texta;
   animation-duration: 1s;
-  animation-delay: 18s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   bottom: 105px;
   position: absolute;
@@ -66,14 +66,17 @@ body{
 }
 
 .por p {
-	color: #C176CB;
+	color: white;
 }
 
 p{
   color: white;
+  background-color: #1f1f1f;
+  padding: 17px;
+  border-radius: 10px;
   font-size: 2em;
   font-family: 'Roboto', sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -108,8 +111,8 @@ p{
   width: 100%;
   opacity: 0;
   animation-name: textav;
-  animation-duration: 3s;
-  animation-delay: 5s;
+  animation-duration: 0s;
+  animation-delay: 0s;
   animation-fill-mode: forwards;
   bottom: 130px;
   position: absolute;
@@ -304,7 +307,7 @@ a:hover {
   background-position: center;
   opacity: 0.5;
   animation-name: ltor;
-  animation-duration: 6s;
+  animation-duration: 0s;
 }
 
 @keyframes ltor {
