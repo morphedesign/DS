@@ -6,6 +6,20 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+.circlecont{
+  width: 100%;
+  height:100%;
+  background-color: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centercircle img{
+  width: 400px;
+  height: auto;
+}
+
 .enc{
   height: 100%;
   width: 100%;
@@ -71,7 +85,7 @@ body{
 
 p{
   color: white;
-  background-color: #1f1f1f;
+  background-color: black;
   padding: 17px;
   border-radius: 10px;
   font-size: 2em;
@@ -203,7 +217,7 @@ html, body {
 }
 
 body {
-  background: black;
+  background-color: #141414;
   padding: 0;
   margin: 0;
   font-weight: normal;
@@ -237,58 +251,6 @@ a:hover {
   user-select: none;
   width: 100%;
   height: 100%
-}
-
-.splash .try .device {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  user-select: none;
-  overflow: hidden;
-}
-
-.splash .try .device-screen {
-  background:;
-  height: 200px;
-  width: 200px;
-  border-top-left-radius:50px;
-  border-bottom-left-radius:50px;
-  border-top-right-radius:50px;
-  border-bottom-right-radius:50px;
-  perspective: 500px;
-}
-
-.splash .try .device-screen-wrapper {
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.splash .try .device.hammertime .device-screen {
-  background: url(../img/hammer.gif) no-repeat 50%;
-  background-size: cover;
-}
-
-.splash .try .device.hammertime .device-screen #hitarea {
-  display: none;
-}
-
-.splash .try #hitarea {
-  background: #fff;
-  background-image:url(o.jpeg);
-  background-repeat: no-repeat;
-  background-size: 250px auto;
-  background-position: center;
-  position: absolute;
-  margin:auto;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  animation-name: rtol;
-  animation-duration: 6s;
-  cursor: pointer;
-  -ms-touch-select: none;
-  -webkit-touch-callout: none;
 }
 
 .anim{

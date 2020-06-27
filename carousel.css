@@ -10,13 +10,20 @@
   position: fixed;
   cursor: pointer;
   z-index: 2;
-  opacity: 0.7;
+  transition: 1s;
 }
+
 
 
 .arrow2 img{
   width: 51px;
   height: auto;
+  opacity: 0.5;
+   transition: 1s;
+}
+
+.arrow2 img:hover{
+  opacity: 1;
 }
 
 .arrowswipe{

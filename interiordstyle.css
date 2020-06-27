@@ -4,7 +4,7 @@ html,body{
 	margin:0;
 	width:100%;
 	height:100%;
-	background-color: black;
+	background-color: #141414;
 	transition: 1s;
 }
 
@@ -22,8 +22,13 @@ html,body{
 .arrow2 img{
   width: 51px;
   height: auto;
-  opacity: 0.8;
+  opacity: 0.5;
 }
+
+.arrow2 img:hover{
+opacity: 1;
+}
+
 
 img{
 height: 100%;
